@@ -51,7 +51,7 @@ const Card = ({category}) => {
           <CardLayout key={article.url} article={article} />
         ))
       ) : (
-        <p className="text-white text-lg">Loading news...</p>
+        <p className="text-xl">Loading news...</p>
       )}
     </div>
     </div>
