@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 const Card = ({category}) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-  // const API_KEY = "78f2fd8b4e6740b78ce349dcf0bb80fa";
   const apikey = import.meta.env.VITE_API_KEY;
   console.log(apikey);
 
