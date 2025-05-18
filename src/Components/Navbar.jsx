@@ -19,12 +19,6 @@ const Navbar = ({setCategory}) => {
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
             <div className="flex items-center lg:order-2">
-              {/* <a
-                href="#contact"
-                className="text-white font-bold rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 hover:bg-gray-50 hover:text-black backdrop:-blur-sm transform transition-all duration-500 hover:shadow-[0_0_25px_rgba(255,255,255,0.7)]  border-white/10 sm:border-b"
-              >
-                Contact
-              </a> */}
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
