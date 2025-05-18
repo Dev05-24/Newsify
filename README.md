@@ -1,12 +1,21 @@
-# React + Vite
+# 📰 News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive News App built with **React + Vite** that fetches and displays the latest news from an external API. The app is designed with a clean UI and provides users with real-time news updates across various categories.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches news from a public News API
+- Category-wise news browsing (e.g., General, Sports, Technology, Business)
+- Responsive design for mobile and desktop
+- Loading indicator while fetching data
+- Error handling for API issues
+- Clean and modern UI using **Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
+> ![Homepage](./public/images/main-page.png)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **API:** [News API](https://newsapi.org) 
+- **Routing:** State-based routing, meaning it changes content via props/state instead of navigating to different URLs.
